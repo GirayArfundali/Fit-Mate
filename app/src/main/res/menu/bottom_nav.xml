@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_antrenman"
+        android:title=""
+        android:icon="@drawable/item4" />
+
+
+    <item
+        android:id="@+id/action_BMI"
+        android:title=""
+        android:icon="@drawable/item8" />
+
+    <item
+        android:id="@+id/action_home"
+        android:title=""
+        android:icon="@drawable/item1" />
+
+    <item
+        android:id="@+id/action_İstatistik"
+        android:title=""
+        android:icon="@drawable/item7" />
+
+    <item
+        android:id="@+id/action_admin"
+        android:title=""
+        android:icon="@drawable/item2" />
+
+
+
+</menu>

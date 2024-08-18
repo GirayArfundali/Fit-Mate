@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Spor" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">#00FFFFFF</item> <!-- Şeffaf beyaz renk olarak değiştirildi -->
+    </style>
+
+    <style name="Theme.Spor" parent="Base.Theme.Spor">
+        <!-- You can customize additional attributes here -->
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/custom_blue</item>
+    </style>
+
+    <style name="CustomTabLayoutStyle" parent="Widget.Design.TabLayout">
+        <!-- Arka plan rengi -->
+        <item name="android:background">@color/custom_blue</item> <!-- Örnek renk: Turuncu -->
+
+        <!-- Aktif sekme metin rengi -->
+        <item name="tabTextColor">@color/gri3</item>
+
+        <!-- Seçili sekme göstergesi rengi -->
+        <item name="tabIndicatorColor">@color/custom_blue</item> <!-- Örnek renk: Turuncu -->
+    </style>
+
+</resources>

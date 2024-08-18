@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".VerificationActivity">
+
+    <TextView
+        android:id="@+id/VerificationCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğrulama Kodu"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/etVerificationCode"
+        android:layout_width="350dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_horizontal"
+        android:hint="Kodu Gİriniz"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/edittext_background2"
+        android:inputType="textPassword" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="İptal"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/orange_button_background2"/>
+
+        <Button
+            android:id="@+id/btnVerify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="Doğrula"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/orange_button_background2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

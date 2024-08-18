@@ -1,0 +1,541 @@
+<resources>
+    <string name="app_name">Fıt-Mate</string>
+
+
+    <string name="title_home"></string>
+    <string name="title_dashboard"></string>
+    <string name="title_notifications"></string>
+    <string name="home"></string> <!-- "Home" çevirisi -->
+    <string name="admin"></string>
+    <string name="take_photo">Fotoğraf çek</string>
+    <string name="choose_from_library">Galeri</string>
+    <string name="cancel">İptal</string>
+    <string name="add_photo">Profil fotoğrafı</string>
+    <string name="default_web_client_id">509178237503-jfa3aa3vqrpuj1v8rfdlsaukfvpdt8pd.apps.googleusercontent.com</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="viewPager_description">View pager for swiping between fragments</string>
+    <string name="tabLayout_description">Tab layout for displaying tabs</string>
+    <string name="kilo_alma_text">Kilo Alma</string>
+    <string name="total_calories">Toplam Kalori: %f</string>
+
+    <string name="day1_exercises">3 set x 10 tekrar Bilek Fleksiyonu</string>
+    <string name="day2_exercises">3 set x 10 tekrar Ters Bilek Fleksiyonu</string>
+    <string name="day3_exercises">Dinlenme</string>
+    <string name="day4_exercises">3 set x 10 tekrar Bilek Ekstansiyonu</string>
+    <string name="day5_exercises">Dinlenme</string>
+    <string name="day6_exercises">3 set x 10 tekrar Forearm Hammer Curl</string>
+    <string name="day7_exercises">Dinlenme</string>
+    <string name="day8_exercises">3 set x 10 tekrar Z-Bar Curl</string>
+    <string name="day9_exercises">Dinlenme</string>
+    <string name="day10_exercises">3 set x 10 tekrar Reverse Z-Bar Curl</string>
+    <string name="day11_exercises">4 set x 12 tekrar Bilek Fleksiyonu</string>
+    <string name="day12_exercises">4 set x 12 tekrar Ters Bilek Fleksiyonu</string>
+    <string name="day13_exercises">Dinlenme</string>
+    <string name="day14_exercises">4 set x 12 tekrar Bilek Ekstansiyonu</string>
+    <string name="day15_exercises">Dinlenme</string>
+    <string name="day16_exercises">4 set x 12 tekrar Forearm Hammer Curl</string>
+    <string name="day17_exercises">Dinlenme</string>
+    <string name="day18_exercises">4 set x 12 tekrar Z-Bar Curl</string>
+    <string name="day19_exercises">Dinlenme</string>
+    <string name="day20_exercises">4 set x 12 tekrar Reverse Z-Bar Curl</string>
+    <string name="day21_exercises">5 set x 10 tekrar Bilek Fleksiyonu</string>
+    <string name="day22_exercises">5 set x 10 tekrar Ters Bilek Fleksiyonu</string>
+    <string name="day23_exercises">Dinlenme</string>
+    <string name="day24_exercises">5 set x 10 tekrar Bilek Ekstansiyonu</string>
+    <string name="day25_exercises">Dinlenme</string>
+    <string name="day26_exercises">5 set x 10 tekrar Forearm Hammer Curl</string>
+    <string name="day27_exercises">Dinlenme</string>
+    <string name="day28_exercises">5 set x 10 tekrar Z-Bar Curl</string>
+    <string name="day29_exercises">Dinlenme</string>
+    <string name="day30_exercises">5 set x 10 tekrar Reverse Z-Bar Curl</string>
+
+
+    <string name="second_day1_exercises">3 set x 10 tekrar Triceps Dip\n3 set x 10 tekrar Triceps Extension (Dumbbell Skull Crushers)</string>
+    <string name="second_day2_exercises">3 set x 12 tekrar Close Grip Bench Press\n3 set x 10 tekrar Triceps Pushdown (Cable)</string>
+    <string name="second_day3_exercises">Dinlenme</string>
+    <string name="second_day4_exercises">4 set x 10 tekrar Overhead Triceps Extension (Dumbbell veya Bar)\n3 set x 12 tekrar Triceps Kickbacks</string>
+    <string name="second_day5_exercises">3 set x 10 tekrar Bench Dips\n3 set x 12 tekrar Diamond Push-Ups</string>
+    <string name="second_day6_exercises">Dinlenme</string>
+    <string name="second_day7_exercises">3 set x 10 tekrar Close Grip Push-Ups\n3 set x 12 tekrar Triceps Rope Pushdown</string>
+    <string name="second_day8_exercises">3 set x 12 tekrar Triceps Dip\n3 set x 12 tekrar Triceps Extension (Dumbbell Skull Crushers)</string>
+    <string name="second_day9_exercises">3 set x 12 tekrar Close Grip Bench Press\n3 set x 12 tekrar Triceps Pushdown (Cable)</string>
+    <string name="second_day10_exercises">Dinlenme</string>
+    <string name="second_day11_exercises">4 set x 12 tekrar Overhead Triceps Extension (Dumbbell veya Bar)\n3 set x 12 tekrar Triceps Kickbacks</string>
+    <string name="second_day12_exercises">3 set x 12 tekrar Bench Dips\n3 set x 12 tekrar Diamond Push-Ups</string>
+    <string name="second_day13_exercises">Dinlenme</string>
+    <string name="second_day14_exercises">3 set x 12 tekrar Close Grip Push-Ups\n3 set x 12 tekrar Triceps Rope Pushdown</string>
+    <string name="second_day15_exercises">3 set x 12 tekrar Triceps Dip\n3 set x 12 tekrar Triceps Extension (Dumbbell Skull Crushers)</string>
+    <string name="second_day16_exercises">3 set x 12 tekrar Close Grip Bench Press\n3 set x 12 tekrar Triceps Pushdown (Cable)</string>
+    <string name="second_day17_exercises">Dinlenme</string>
+    <string name="second_day18_exercises">4 set x 12 tekrar Overhead Triceps Extension (Dumbbell veya Bar)\n3 set x 12 tekrar Triceps Kickbacks</string>
+    <string name="second_day19_exercises">3 set x 12 tekrar Bench Dips\n3 set x 12 tekrar Diamond Push-Ups</string>
+    <string name="second_day20_exercises">Dinlenme</string>
+    <string name="second_day21_exercises">3 set x 12 tekrar Close Grip Push-Ups\n3 set x 12 tekrar Triceps Rope Pushdown</string>
+    <string name="second_day22_exercises">3 set x 12 tekrar Triceps Dip\n3 set x 12 tekrar Triceps Extension (Dumbbell Skull Crushers)</string>
+    <string name="second_day23_exercises">3 set x 12 tekrar Close Grip Bench Press\n3 set x 12 tekrar Triceps Pushdown (Cable)</string>
+    <string name="second_day24_exercises">Dinlenme</string>
+    <string name="second_day25_exercises">4 set x 12 tekrar Overhead Triceps Extension (Dumbbell veya Bar)\n3 set x 12 tekrar Triceps Kickbacks</string>
+    <string name="second_day26_exercises">3 set x 12 tekrar Bench Dips\n3 set x 12 tekrar Diamond Push-Ups</string>
+    <string name="second_day27_exercises">Dinlenme</string>
+    <string name="second_day28_exercises">3 set x 12 tekrar Close Grip Push-Ups\n3 set x 12 tekrar Triceps Rope Pushdown</string>
+    <string name="second_day29_exercises">3 set x 12 tekrar Triceps Dip\n3 set x 12 tekrar Triceps Extension (Dumbbell Skull Crushers)</string>
+    <string name="second_day30_exercises">3 set x 12 tekrar Close Grip Bench Press\n3 set x 12 tekrar Triceps Pushdown (Cable)</string>
+
+
+    <string name="three_day1">Gün 1:</string>
+    <string name="three_day1_exercises">3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Lateral Raises</string>
+
+    <string name="three_day2">Gün 2:</string>
+    <string name="three_day2_exercises">3 set x 12 tekrar Front Raises\n3 set x 12 tekrar Reverse Flyes</string>
+
+    <string name="three_day3">Gün 3:</string>
+    <string name="three_day3_exercises">Dinlenme</string>
+
+    <string name="three_day4">Gün 4:</string>
+    <string name="three_day4_exercises">3 set x 12 tekrar Arnold Press\n3 set x 12 tekrar Bent Over Lateral Raises</string>
+
+    <string name="three_day5">Gün 5:</string>
+    <string name="three_day5_exercises">3 set x 12 tekrar Shoulder Shrugs\n3 set x 12 tekrar Upright Rows</string>
+
+    <string name="three_day6">Gün 6:</string>
+    <string name="three_day6_exercises">Dinlenme</string>
+
+    <string name="three_day7">Gün 7:</string>
+    <string name="three_day7_exercises">3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Lateral Raises</string>
+
+    <string name="three_day8">Gün 8:</string>
+    <string name="three_day8_exercises">3 set x 12 tekrar Front Raises\n3 set x 12 tekrar Reverse Flyes</string>
+
+    <string name="three_day9">Gün 9:</string>
+    <string name="three_day9_exercises">Dinlenme</string>
+
+    <string name="three_day10">Gün 10:</string>
+    <string name="three_day10_exercises">3 set x 12 tekrar Arnold Press\n3 set x 12 tekrar Bent Over Lateral Raises</string>
+
+    <string name="three_day11">Gün 11:</string>
+    <string name="three_day11_exercises">3 set x 12 tekrar Shoulder Shrugs\n3 set x 12 tekrar Upright Rows</string>
+
+    <string name="three_day12">Gün 12:</string>
+    <string name="three_day12_exercises">Dinlenme</string>
+
+    <string name="three_day13">Gün 13:</string>
+    <string name="three_day13_exercises">3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Lateral Raises</string>
+
+    <string name="three_day14">Gün 14:</string>
+    <string name="three_day14_exercises">3 set x 12 tekrar Front Raises\n3 set x 12 tekrar Reverse Flyes</string>
+
+    <string name="three_day15">Gün 15:</string>
+    <string name="three_day15_exercises">Dinlenme</string>
+
+    <string name="three_day16">Gün 16:</string>
+    <string name="three_day16_exercises">3 set x 12 tekrar Arnold Press\n3 set x 12 tekrar Bent Over Lateral Raises</string>
+
+    <string name="three_day17">Gün 17:</string>
+    <string name="three_day17_exercises">3 set x 12 tekrar Shoulder Shrugs\n3 set x 12 tekrar Upright Rows</string>
+
+    <string name="three_day18">Gün 18:</string>
+    <string name="three_day18_exercises">Dinlenme</string>
+
+    <string name="three_day19">Gün 19:</string>
+    <string name="three_day19_exercises">3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Lateral Raises</string>
+
+    <string name="three_day20">Gün 20:</string>
+    <string name="three_day20_exercises">3 set x 12 tekrar Front Raises\n3 set x 12 tekrar Reverse Flyes</string>
+
+    <string name="three_day21">Gün 21:</string>
+    <string name="three_day21_exercises">Dinlenme</string>
+
+    <string name="three_day22">Gün 22:</string>
+    <string name="three_day22_exercises">3 set x 12 tekrar Arnold Press\n3 set x 12 tekrar Bent Over Lateral Raises</string>
+
+    <string name="three_day23">Gün 23:</string>
+    <string name="three_day23_exercises">3 set x 12 tekrar Shoulder Shrugs\n3 set x 12 tekrar Upright Rows</string>
+
+    <string name="three_day24">Gün 24:</string>
+    <string name="three_day24_exercises">Dinlenme</string>
+
+    <string name="three_day25">Gün 25:</string>
+    <string name="three_day25_exercises">3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Lateral Raises</string>
+
+    <string name="three_day26">Gün 26:</string>
+    <string name="three_day26_exercises">3 set x 12 tekrar Front Raises\n3 set x 12 tekrar Reverse Flyes</string>
+
+    <string name="three_day27">Gün 27:</string>
+    <string name="three_day27_exercises">Dinlenme</string>
+
+    <string name="three_day28">Gün 28:</string>
+    <string name="three_day28_exercises">3 set x 12 tekrar Arnold Press\n3 set x 12 tekrar Bent Over Lateral Raises</string>
+
+    <string name="three_day29">Gün 29:</string>
+    <string name="three_day29_exercises">3 set x 12 tekrar Shoulder Shrugs\n3 set x 12 tekrar Upright Rows</string>
+
+    <string name="three_day30">Gün 30:</string>
+    <string name="three_day30_exercises">Dinlenme</string>
+
+
+    <string name="seven_day1">Gün 1:</string>
+    <string name="seven_day1_exercises">3 set x 12 tekrar Barbell Bench Press\n3 set x 12 tekrar Dumbbell Flyes</string>
+
+    <string name="seven_day2">Gün 2:</string>
+    <string name="seven_day2_exercises">3 set x 12 tekrar Incline Bench Press\n3 set x 12 tekrar Cable Crossover</string>
+
+    <string name="seven_day3">Gün 3:</string>
+    <string name="seven_day3_exercises">Dinlenme</string>
+
+    <string name="seven_day4">Gün 4:</string>
+    <string name="seven_day4_exercises">3 set x 12 tekrar Decline Bench Press\n3 set x 12 tekrar Push-Ups</string>
+
+    <string name="seven_day5">Gün 5:</string>
+    <string name="seven_day5_exercises">3 set x 12 tekrar Dumbbell Pullover\n3 set x 12 tekrar Dumbbell Bench Press</string>
+
+    <string name="seven_day6">Gün 6:</string>
+    <string name="seven_day6_exercises">Dinlenme</string>
+
+    <string name="seven_day7">Gün 7:</string>
+    <string name="seven_day7_exercises">3 set x 12 tekrar Barbell Bench Press\n3 set x 12 tekrar Dumbbell Flyes</string>
+
+    <string name="seven_day8">Gün 8:</string>
+    <string name="seven_day8_exercises">3 set x 12 tekrar Incline Bench Press\n3 set x 12 tekrar Cable Crossover</string>
+
+    <string name="seven_day9">Gün 9:</string>
+    <string name="seven_day9_exercises">Dinlenme</string>
+
+    <string name="seven_day10">Gün 10:</string>
+    <string name="seven_day10_exercises">3 set x 12 tekrar Decline Bench Press\n3 set x 12 tekrar Push-Ups</string>
+
+    <string name="seven_day11">Gün 11:</string>
+    <string name="seven_day11_exercises">3 set x 12 tekrar Dumbbell Pullover\n3 set x 12 tekrar Dumbbell Bench Press</string>
+
+    <string name="seven_day12">Gün 12:</string>
+    <string name="seven_day12_exercises">Dinlenme</string>
+
+    <string name="seven_day13">Gün 13:</string>
+    <string name="seven_day13_exercises">3 set x 12 tekrar Barbell Bench Press\n3 set x 12 tekrar Dumbbell Flyes</string>
+
+    <string name="seven_day14">Gün 14:</string>
+    <string name="seven_day14_exercises">3 set x 12 tekrar Incline Bench Press\n3 set x 12 tekrar Cable Crossover</string>
+
+    <string name="seven_day15">Gün 15:</string>
+    <string name="seven_day15_exercises">Dinlenme</string>
+
+    <string name="seven_day16">Gün 16:</string>
+    <string name="seven_day16_exercises">3 set x 12 tekrar Decline Bench Press\n3 set x 12 tekrar Push-Ups</string>
+
+    <string name="seven_day17">Gün 17:</string>
+    <string name="seven_day17_exercises">3 set x 12 tekrar Dumbbell Pullover\n3 set x 12 tekrar Dumbbell Bench Press</string>
+
+    <string name="seven_day18">Gün 18:</string>
+    <string name="seven_day18_exercises">Dinlenme</string>
+
+    <string name="seven_day19">Gün 19:</string>
+    <string name="seven_day19_exercises">3 set x 12 tekrar Barbell Bench Press\n3 set x 12 tekrar Dumbbell Flyes</string>
+
+    <string name="seven_day20">Gün 20:</string>
+    <string name="seven_day20_exercises">3 set x 12 tekrar Incline Bench Press\n3 set x 12 tekrar Cable Crossover</string>
+
+    <string name="seven_day21">Gün 21:</string>
+    <string name="seven_day21_exercises">Dinlenme</string>
+
+    <string name="seven_day22">Gün 22:</string>
+    <string name="seven_day22_exercises">3 set x 12 tekrar Decline Bench Press\n3 set x 12 tekrar Push-Ups</string>
+
+    <string name="seven_day23">Gün 23:</string>
+    <string name="seven_day23_exercises">3 set x 12 tekrar Dumbbell Pullover\n3 set x 12 tekrar Dumbbell Bench Press</string>
+
+    <string name="seven_day24">Gün 24:</string>
+    <string name="seven_day24_exercises">Dinlenme</string>
+
+    <string name="seven_day25">Gün 25:</string>
+    <string name="seven_day25_exercises">3 set x 12 tekrar Barbell Bench Press\n3 set x 12 tekrar Dumbbell Flyes</string>
+
+    <string name="seven_day26">Gün 26:</string>
+    <string name="seven_day26_exercises">3 set x 12 tekrar Incline Bench Press\n3 set x 12 tekrar Cable Crossover</string>
+
+    <string name="seven_day27">Gün 27:</string>
+    <string name="seven_day27_exercises">Dinlenme</string>
+
+    <string name="seven_day28">Gün 28:</string>
+    <string name="seven_day28_exercises">3 set x 12 tekrar Decline Bench Press\n3 set x 12 tekrar Push-Ups</string>
+
+    <string name="seven_day29">Gün 29:</string>
+    <string name="seven_day29_exercises">3 set x 12 tekrar Dumbbell Pullover\n3 set x 12 tekrar Dumbbell Bench Press</string>
+
+    <string name="seven_day30">Gün 30:</string>
+    <string name="seven_day30_exercises">Dinlenme</string>
+
+
+    <string name="five_day1">Gün 1:</string>
+    <string name="five_day1_exercises">3 set x 12 tekrar Squat\n3 set x 12 tekrar Lunges (her bacak için)</string>
+
+    <string name="five_day2">Gün 2:</string>
+    <string name="five_day2_exercises">3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Bulgarian Split Squat (her bacak için)</string>
+
+    <string name="five_day3">Gün 3:</string>
+    <string name="five_day3_exercises">Dinlenme</string>
+
+    <string name="five_day4">Gün 4:</string>
+    <string name="five_day4_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Hamstring Curl</string>
+
+    <string name="five_day5">Gün 5:</string>
+    <string name="five_day5_exercises">3 set x 12 tekrar Calf Raises\n3 set x 12 tekrar Step-Ups (her bacak için)</string>
+
+    <string name="five_day6">Gün 6:</string>
+    <string name="five_day6_exercises">Dinlenme</string>
+
+    <string name="five_day7">Gün 7:</string>
+    <string name="five_day7_exercises">3 set x 12 tekrar Squat\n3 set x 12 tekrar Lunges (her bacak için)</string>
+
+    <string name="five_day8">Gün 8:</string>
+    <string name="five_day8_exercises">3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Bulgarian Split Squat (her bacak için)</string>
+
+    <string name="five_day9">Gün 9:</string>
+    <string name="five_day9_exercises">Dinlenme</string>
+
+    <string name="five_day10">Gün 10:</string>
+    <string name="five_day10_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Hamstring Curl</string>
+
+    <string name="five_day11">Gün 11:</string>
+    <string name="five_day11_exercises">3 set x 12 tekrar Calf Raises\n3 set x 12 tekrar Step-Ups (her bacak için)</string>
+
+    <string name="five_day12">Gün 12:</string>
+    <string name="five_day12_exercises">Dinlenme</string>
+
+    <string name="five_day13">Gün 13:</string>
+    <string name="five_day13_exercises">3 set x 12 tekrar Squat\n3 set x 12 tekrar Lunges (her bacak için)</string>
+
+    <string name="five_day14">Gün 14:</string>
+    <string name="five_day14_exercises">3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Bulgarian Split Squat (her bacak için)</string>
+
+    <string name="five_day15">Gün 15:</string>
+    <string name="five_day15_exercises">Dinlenme</string>
+
+    <string name="five_day16">Gün 16:</string>
+    <string name="five_day16_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Hamstring Curl</string>
+
+    <string name="five_day17">Gün 17:</string>
+    <string name="five_day17_exercises">3 set x 12 tekrar Calf Raises\n3 set x 12 tekrar Step-Ups (her bacak için)</string>
+
+    <string name="five_day18">Gün 18:</string>
+    <string name="five_day18_exercises">Dinlenme</string>
+
+    <string name="five_day19">Gün 19:</string>
+    <string name="five_day19_exercises">3 set x 12 tekrar Squat\n3 set x 12 tekrar Lunges (her bacak için)</string>
+
+    <string name="five_day20">Gün 20:</string>
+    <string name="five_day20_exercises">3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Bulgarian Split Squat (her bacak için)</string>
+
+    <string name="five_day21">Gün 21:</string>
+    <string name="five_day21_exercises">Dinlenme</string>
+
+    <string name="five_day22">Gün 22:</string>
+    <string name="five_day22_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Hamstring Curl</string>
+
+    <string name="five_day23">Gün 23:</string>
+    <string name="five_day23_exercises">3 set x 12 tekrar Calf Raises\n3 set x 12 tekrar Step-Ups (her bacak için)</string>
+
+    <string name="five_day24">Gün 24:</string>
+    <string name="five_day24_exercises">Dinlenme</string>
+
+    <string name="five_day25">Gün 25:</string>
+    <string name="five_day25_exercises">3 set x 12 tekrar Squat\n3 set x 12 tekrar Lunges (her bacak için)</string>
+
+    <string name="five_day26">Gün 26:</string>
+    <string name="five_day26_exercises">3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Bulgarian Split Squat (her bacak için)</string>
+
+    <string name="five_day27">Gün 27:</string>
+    <string name="five_day27_exercises">Dinlenme</string>
+
+    <string name="five_day28">Gün 28:</string>
+    <string name="five_day28_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Hamstring Curl</string>
+
+    <string name="five_day29">Gün 29:</string>
+    <string name="five_day29_exercises">3 set x 12 tekrar Calf Raises\n3 set x 12 tekrar Step-Ups (her bacak için)</string>
+
+    <string name="five_day30">Gün 30:</string>
+    <string name="five_day30_exercises">Dinlenme</string>
+
+    <string name="six_day1">Gün 1:</string>
+    <string name="six_day1_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Bench Press\n3 set x 12 tekrar Bent Over Barbell Rows\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="six_day2">Gün 2:</string>
+    <string name="six_day2_exercises">Dinlenme</string>
+
+    <string name="six_day3">Gün 3:</string>
+    <string name="six_day3_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Pull-Ups (veya Lat Pulldowns)\n3 set x 12 tekrar Dumbbell Lunges (her bacak için)\n3 set x 12 tekrar Dumbbell Bench Press\n3 set x 12 tekrar Plank</string>
+
+    <string name="six_day4">Gün 4:</string>
+    <string name="six_day4_exercises">Dinlenme</string>
+
+    <string name="six_day5">Gün 5:</string>
+    <string name="six_day5_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Barbell Rows\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Dumbbell Bicep Curls\n3 set x 12 tekrar Russian Twists</string>
+
+    <string name="six_day6">Gün 6:</string>
+    <string name="six_day6_exercises">Dinlenme</string>
+
+    <string name="six_day7">Gün 7:</string>
+    <string name="six_day7_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Incline Dumbbell Bench Press\n3 set x 12 tekrar Seated Cable Rows\n3 set x 12 tekrar Dumbbell Lunges (her bacak için)\n3 set x 12 tekrar Plank</string>
+
+    <string name="six_day8">Gün 8:</string>
+    <string name="six_day8_exercises">Dinlenme</string>
+
+    <string name="six_day9">Gün 9:</string>
+    <string name="six_day9_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Pull-Ups (veya Lat Pulldowns)\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Hanging Leg Raises</string>
+
+    <string name="six_day10">Gün 10:</string>
+    <string name="six_day10_exercises">Dinlenme</string>
+
+    <string name="six_day11">Gün 11:</string>
+    <string name="six_day11_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Bench Press\n3 set x 12 tekrar Bent Over Barbell Rows\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="six_day12">Gün 12:</string>
+    <string name="six_day12_exercises">Dinlenme</string>
+
+    <string name="six_day13">Gün 13:</string>
+    <string name="six_day13_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Pull-Ups (veya Lat Pulldowns)\n3 set x 12 tekrar Dumbbell Lunges (her bacak için)\n3 set x 12 tekrar Dumbbell Bench Press\n3 set x 12 tekrar Plank</string>
+
+    <string name="six_day14">Gün 14:</string>
+    <string name="six_day14_exercises">Dinlenme</string>
+
+    <string name="six_day15">Gün 15:</string>
+    <string name="six_day15_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Barbell Rows\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Dumbbell Bicep Curls\n3 set x 12 tekrar Russian Twists</string>
+
+    <string name="six_day16">Gün 16:</string>
+    <string name="six_day16_exercises">Dinlenme</string>
+
+    <string name="six_day17">Gün 17:</string>
+    <string name="six_day17_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Incline Dumbbell Bench Press\n3 set x 12 tekrar Seated Cable Rows\n3 set x 12 tekrar Dumbbell Lunges (her bacak için)\n3 set x 12 tekrar Plank</string>
+
+    <string name="six_day18">Gün 18:</string>
+    <string name="six_day18_exercises">Dinlenme</string>
+
+    <string name="six_day19">Gün 19:</string>
+    <string name="six_day19_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Pull-Ups (veya Lat Pulldowns)\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Hanging Leg Raises</string>
+
+    <string name="six_day20">Gün 20:</string>
+    <string name="six_day20_exercises">Dinlenme</string>
+
+    <string name="six_day21">Gün 21:</string>
+    <string name="six_day21_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Bench Press\n3 set x 12 tekrar Bent Over Barbell Rows\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="six_day22">Gün 22:</string>
+    <string name="six_day22_exercises">Dinlenme</string>
+
+    <string name="six_day23">Gün 23:</string>
+    <string name="six_day23_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Pull-Ups (veya Lat Pulldowns)\n3 set x 12 tekrar Dumbbell Lunges (her bacak için)\n3 set x 12 tekrar Dumbbell Bench Press\n3 set x 12 tekrar Plank</string>
+
+    <string name="six_day24">Gün 24:</string>
+    <string name="six_day24_exercises">Dinlenme</string>
+
+    <string name="six_day25">Gün 25:</string>
+    <string name="six_day25_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Barbell Rows\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Dumbbell Bicep Curls\n3 set x 12 tekrar Russian Twists</string>
+
+    <string name="six_day26">Gün 26:</string>
+    <string name="six_day26_exercises">Dinlenme</string>
+
+    <string name="six_day27">Gün 27:</string>
+    <string name="six_day27_exercises">3 set x 12 tekrar Deadlift\n3 set x 12 tekrar Incline Dumbbell Bench Press\n3 set x 12 tekrar Seated Cable Rows\n3 set x 12 tekrar Dumbbell Lunges (her bacak için)\n3 set x 12 tekrar Plank</string>
+
+    <string name="six_day28">Gün 28:</string>
+    <string name="six_day28_exercises">Dinlenme</string>
+
+    <string name="six_day29">Gün 29:</string>
+    <string name="six_day29_exercises">3 set x 12 tekrar Barbell Squat\n3 set x 12 tekrar Pull-Ups (veya Lat Pulldowns)\n3 set x 12 tekrar Dumbbell Shoulder Press\n3 set x 12 tekrar Leg Press\n3 set x 12 tekrar Hanging Leg Raises</string>
+
+    <string name="six_day30">Gün 30:</string>
+    <string name="six_day30_exercises">Dinlenme</string>
+
+
+    <string name="four_day1">Gün 1:</string>
+    <string name="four_day1_exercises">3 set x 15 tekrar Crunches\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="four_day2">Gün 2:</string>
+    <string name="four_day2_exercises">3 set x 15 tekrar Bicycle Crunches\n3 set x 12 tekrar Plank</string>
+
+    <string name="four_day3">Gün 3:</string>
+    <string name="four_day3_exercises">Dinlenme</string>
+
+    <string name="four_day4">Gün 4:</string>
+    <string name="four_day4_exercises">3 set x 15 tekrar Russian Twists\n3 set x 12 tekrar Mountain Climbers</string>
+
+    <string name="four_day5">Gün 5:</string>
+    <string name="four_day5_exercises">3 set x 15 tekrar Reverse Crunches\n3 set x 12 tekrar Side Plank (her iki taraf için)</string>
+
+    <string name="four_day6">Gün 6:</string>
+    <string name="four_day6_exercises">Dinlenme</string>
+
+    <string name="four_day7">Gün 7:</string>
+    <string name="four_day7_exercises">3 set x 15 tekrar Crunches\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="four_day8">Gün 8:</string>
+    <string name="four_day8_exercises">3 set x 15 tekrar Bicycle Crunches\n3 set x 12 tekrar Plank</string>
+
+    <string name="four_day9">Gün 9:</string>
+    <string name="four_day9_exercises">Dinlenme</string>
+
+    <string name="four_day10">Gün 10:</string>
+    <string name="four_day10_exercises">3 set x 15 tekrar Russian Twists\n3 set x 12 tekrar Mountain Climbers</string>
+
+    <string name="four_day11">Gün 11:</string>
+    <string name="four_day11_exercises">3 set x 15 tekrar Reverse Crunches\n3 set x 12 tekrar Side Plank (her iki taraf için)</string>
+
+    <string name="four_day12">Gün 12:</string>
+    <string name="four_day12_exercises">Dinlenme</string>
+
+    <string name="four_day13">Gün 13:</string>
+    <string name="four_day13_exercises">3 set x 15 tekrar Crunches\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="four_day14">Gün 14:</string>
+    <string name="four_day14_exercises">3 set x 15 tekrar Bicycle Crunches\n3 set x 12 tekrar Plank</string>
+
+    <string name="four_day15">Gün 15:</string>
+    <string name="four_day15_exercises">Dinlenme</string>
+
+    <string name="four_day16">Gün 16:</string>
+    <string name="four_day16_exercises">3 set x 15 tekrar Russian Twists\n3 set x 12 tekrar Mountain Climbers</string>
+
+    <string name="four_day17">Gün 17:</string>
+    <string name="four_day17_exercises">3 set x 15 tekrar Reverse Crunches\n3 set x 12 tekrar Side Plank (her iki taraf için)</string>
+
+    <string name="four_day18">Gün 18:</string>
+    <string name="four_day18_exercises">Dinlenme</string>
+
+    <string name="four_day19">Gün 19:</string>
+    <string name="four_day19_exercises">3 set x 15 tekrar Crunches\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="four_day20">Gün 20:</string>
+    <string name="four_day20_exercises">3 set x 15 tekrar Bicycle Crunches\n3 set x 12 tekrar Plank</string>
+
+    <string name="four_day21">Gün 21:</string>
+    <string name="four_day21_exercises">Dinlenme</string>
+
+    <string name="four_day22">Gün 22:</string>
+    <string name="four_day22_exercises">3 set x 15 tekrar Russian Twists\n3 set x 12 tekrar Mountain Climbers</string>
+
+    <string name="four_day23">Gün 23:</string>
+    <string name="four_day23_exercises">3 set x 15 tekrar Reverse Crunches\n3 set x 12 tekrar Side Plank (her iki taraf için)</string>
+
+    <string name="four_day24">Gün 24:</string>
+    <string name="four_day24_exercises">Dinlenme</string>
+
+    <string name="four_day25">Gün 25:</string>
+    <string name="four_day25_exercises">3 set x 15 tekrar Crunches\n3 set x 12 tekrar Leg Raises</string>
+
+    <string name="four_day26">Gün 26:</string>
+    <string name="four_day26_exercises">3 set x 15 tekrar Bicycle Crunches\n3 set x 12 tekrar Plank</string>
+
+    <string name="four_day27">Gün 27:</string>
+    <string name="four_day27_exercises">Dinlenme</string>
+
+    <string name="four_day28">Gün 28:</string>
+    <string name="four_day28_exercises">3 set x 15 tekrar Russian Twists\n3 set x 12 tekrar Mountain Climbers</string>
+
+    <string name="four_day29">Gün 29:</string>
+    <string name="four_day29_exercises">3 set x 15 tekrar Reverse Crunches\n3 set x 12 tekrar Side Plank (her iki taraf için)</string>
+
+    <string name="four_day30">Gün 30:</string>
+    <string name="four_day30_exercises">Dinlenme</string>
+    <string name="title_activity_googlemaps">googlemaps</string>
+
+
+</resources>

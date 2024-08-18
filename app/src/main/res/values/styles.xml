@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+</style>
+    <style name="CalendarTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="CalendarViewStyle" parent="@android:style/Widget.CalendarView">
+        <item name="android:dateTextAppearance">@style/CalendarTextAppearance</item>
+        <item name="android:weekDayTextAppearance">@style/CalendarTextAppearance</item>
+    </style>
+
+    <style name="CustomCalendarHeader" parent="@android:style/Widget.CalendarView">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+
+</resources>

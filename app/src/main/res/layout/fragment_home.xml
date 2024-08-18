@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- CalendarView -->
+    <ImageView
+        android:id="@+id/calendarIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_calendar"
+        android:background="@drawable/circular_background" />
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_avatar"
+        android:background="@drawable/circular_background" />
+
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/monthYearTextView"
+        android:layout_alignStart="@id/monthYearTextView"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-70dp"
+        android:padding="8dp"
+        android:textColor="@color/gri3"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/monthYearTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/calendarIcon"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/calendarIcon"
+        android:padding="8dp"
+        android:textColor="@color/black2"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewDates"
+        android:layout_width="match_parent"
+        android:layout_height="191dp"
+        android:layout_below="@id/dayTextView"
+        android:layout_marginTop="40dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:padding="8dp"
+        android:scrollbars="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_date" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerViewDates"
+        android:layout_marginTop="-26dp"
+        android:layout_marginStart="20dp"
+        android:columnCount="2">
+
+        <!-- First CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="165dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white3"
+            app:cardCornerRadius="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewCornerIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/walk"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp" />
+                <!-- Inside the RelativeLayout -->
+
+
+                <!-- Content of First CardView -->
+
+                <!-- Circular Progress Bar -->
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/stepCircularProgressBar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    app:cpb_background_progressbar_color="@color/white"
+                    app:cpb_progress="50"
+                    app:cpb_progressbar_color="@color/custom_blue"
+                    app:cpb_progressbar_width="10dp"
+                    app:cpb_background_progressbar_width="10dp">
+                </com.mikhaellopez.circularprogressbar.CircularProgressBar>
+                    <!-- Text for Circular Progress Bar -->
+                <TextView
+                    android:id="@+id/stepCountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="-50dp"
+                    android:textColor="@color/black"
+                    android:layout_above="@id/stepCircularProgressBar"
+                    android:layout_centerHorizontal="true"/>
+
+
+                <!-- Text "Adım" inside Circular Progress Bar -->
+                    <TextView
+                        android:id="@+id/textViewStep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Adım"
+                        android:layout_marginTop="60dp"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:layout_below="@id/stepCountTextView"
+                        android:layout_centerHorizontal="true"/>
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!-- Second CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="165dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white3"
+            app:cardCornerRadius="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Köşede yer alan ikon -->
+                <ImageView
+                    android:id="@+id/imageViewCornerIcon3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:src="@drawable/kcal"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp" />
+
+                <!-- İçerik -->
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/kaloriCircularProgressBar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    app:cpb_background_progressbar_color="@color/white"
+                    app:cpb_progress="50"
+                    app:cpb_progressbar_color="@color/custom_blue"
+                    app:cpb_progressbar_width="10dp"
+                    app:cpb_background_progressbar_width="10dp">
+                </com.mikhaellopez.circularprogressbar.CircularProgressBar>
+
+                <!-- Kalori metni -->
+                <TextView
+                    android:id="@+id/kaloriCountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="-50dp"
+                    android:textColor="@color/black"
+                    android:layout_above="@id/kaloriCircularProgressBar"
+                    android:layout_centerHorizontal="true"/>
+
+                <!-- "Kalori" metni -->
+                <TextView
+                    android:id="@+id/textViewKalori"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kalori"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/kaloriCountTextView"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <!-- Third CardView -->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="165dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center"
+            app:cardBackgroundColor="@color/white3"
+            app:cardCornerRadius="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- Köşede yer alan ikon -->
+                <ImageView
+                    android:id="@+id/imageViewCornerIcon5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/water"
+                    android:padding="8dp" />
+
+                <!-- İçerik -->
+                <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                    android:id="@+id/waterCircularProgressBar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    app:cpb_background_progressbar_color="@color/white"
+                    app:cpb_progress="0"
+                    app:cpb_progressbar_color="@color/custom_blue"
+                    app:cpb_progressbar_width="10dp"
+                    app:cpb_background_progressbar_width="10dp">
+                </com.mikhaellopez.circularprogressbar.CircularProgressBar>
+
+                <!-- 0 ml metni -->
+                <TextView
+                    android:id="@+id/waterIntakeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="-50dp"
+                    android:textColor="@color/black"
+                    android:layout_above="@id/waterCircularProgressBar"
+                    android:layout_centerHorizontal="true"/>
+
+                <!-- "Su Tüketimi" metni -->
+                <TextView
+                    android:id="@+id/waterIntakeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Su Tüketimi"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="-50dp"
+                    android:textColor="@color/black"
+                    android:layout_below="@id/waterIntakeTextView"
+                    android:layout_centerHorizontal="true"/>
+
+                <!-- Buton -->
+                <Button
+                    android:id="@+id/waterIntakeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_below="@id/waterCircularProgressBar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/orange_button_background2"
+                    android:text="250 ml Ekle"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <!-- Fourth CardView -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="165dp"
+            android:layout_height="225dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            app:cardBackgroundColor="@color/white3"
+            app:cardCornerRadius="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/title_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="40dp"
+                    android:text="Haftalık Adım ve Kalori"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/imageViewCornerIcon2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/chart"
+                    android:padding="8dp" />
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/bar_chart_steps"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/imageViewCornerIcon2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp" />
+                <!-- Content of First CardView -->
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_navigation_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

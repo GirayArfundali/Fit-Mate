@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- BMI CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/custom_blue">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/instructionTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="BMI"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <!-- Boy ve Kilo Girişleri -->
+                    <EditText
+                        android:id="@+id/editTextHeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Boy (cm)"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/black"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <EditText
+                        android:id="@+id/editTextWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Kilo (kg)"
+                        android:inputType="numberDecimal"
+                        android:textColor="@color/black"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <!-- BMI Sonucunu Gösteren TextView -->
+
+                    <!-- BMI Hesapla Butonu -->
+                    <Button
+                        android:id="@+id/btnCalculateBMI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Hesapla"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/orange_button_background3" />
+                    <TextView
+                        android:id="@+id/resultTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:text="Bmı Sonucunuz: "
+                        android:textSize="20sp"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Vücut Yağ Oranı CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/custom_blue">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VÜCUT YAĞ ORANI"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <EditText
+                        android:id="@+id/editTextHeight2"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Boyunuz (cm)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <EditText
+                        android:id="@+id/editTextNeckCircumference"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Boyun Çevresi (cm)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <EditText
+                        android:id="@+id/editTextWaistCircumference"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Bel Çevresi (cm)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <EditText
+                        android:id="@+id/editTextHipCircumference"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Kalça Çevresi (cm)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cinsiyetiniz"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButtonFemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kadın"
+                            android:textColor="@color/white" />
+
+                        <RadioButton
+                            android:id="@+id/radioButtonMale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Erkek"
+                            android:layout_marginStart="15dp"
+                            android:textColor="@color/white" />
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/btnCalculateBodyFat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Hesapla"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/orange_button_background3" />
+
+                    <TextView
+                        android:id="@+id/bodyFatResultTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Vücut Yağ Oranınız: "
+                        android:textSize="20sp"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+            <!-- İdeal Kilo CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/custom_blue">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="İDEAL KİLO"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal" />
+                    <EditText
+                        android:id="@+id/editTextHeight3"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Boyunuz (cm)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+                    <EditText
+                        android:id="@+id/editTextIdealWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Kilonuz (kg)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cinsiyetiniz"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroupGender2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radioButtonFemale2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kadın"
+                            android:textColor="@color/white" />
+
+                        <RadioButton
+                            android:id="@+id/radioButtonMale2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Erkek"
+                            android:layout_marginStart="15dp"
+                            android:textColor="@color/white" />
+                    </RadioGroup>
+                    <Button
+                        android:id="@+id/btnCalculateIdealWeight3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Hesapla"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/orange_button_background3" />
+
+                    <TextView
+                        android:id="@+id/idealWeightResultTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="10dp"
+                        android:text="İdeal Kilonuz: "
+                        android:textSize="20sp"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Günlük Su İhtiyacı CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardBackgroundColor="@color/custom_blue">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/textViewWaterNeed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GÜNLÜK SU İHTİYACI"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_horizontal" />
+
+                    <!-- Su İhtiyacı Girişleri -->
+                    <EditText
+                        android:id="@+id/editTextWeight2"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:hint="Kilo (kg)"
+                        android:inputType="numberDecimal"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"
+                        android:textSize="16sp"
+                        android:background="@drawable/orange_button_background3"
+                        android:gravity="center_horizontal"
+                        android:paddingTop="10dp" />
+
+                    <!-- Hesapla Butonu -->
+                    <Button
+                        android:id="@+id/btnCalculateWaterNeed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:text="Hesapla"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:background="@drawable/orange_button_background3"/>
+
+                    <TextView
+                        android:id="@+id/waterNeedResultTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="10dp"
+                        android:text="Günlük Su İhtiyacınız: "
+                        android:textSize="20sp"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="60dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation View -->
+    <!-- Bottom Navigation View Buraya -->
+
+</RelativeLayout>

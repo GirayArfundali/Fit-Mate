@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/btnBack2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Geri"
+            android:textColor="@color/white"
+            android:background="@drawable/edittext_background2"
+            android:onClick="goToMainActivity" />
+
+
+        <LinearLayout
+            android:id="@+id/llFieldsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnBack2"
+            android:layout_marginTop="-1dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvUsernameLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kullanıcı Adı"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Kullanıcı Adı"
+                android:inputType="text"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvAgeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Yaşınız"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etAge"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Yaşınız"
+                android:inputType="number"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvWeightLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Boyunuz"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Boyunuz (cm)"
+                android:inputType="numberDecimal"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvHeightLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Kilonuz"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etHeight"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Kilonuz (Kg)"
+                android:inputType="numberDecimal"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvEmailLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Email"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvPhoneNumberLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="Telefon Numarası"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Telefon Numarası"
+                android:inputType="phone"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvPasswordLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Şifre"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Şifre"
+                android:inputType="textPassword"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+            <TextView
+                android:id="@+id/tvConfirmPasswordLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="Şifreyi Onayla"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/etConfirmPassword"
+                android:layout_width="360dp"
+                android:layout_height="45dp"
+                android:hint="Şifreyi Onayla"
+                android:inputType="textPassword"
+                android:background="@drawable/orange_button_background2"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kayıt Ol"
+            android:textColor="@color/white"
+            android:background="@drawable/edittext_background2"
+            android:layout_below="@id/llFieldsContainer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+</ScrollView>
