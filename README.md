@@ -1,5 +1,5 @@
 # Fit-Mate
- The Fitness and health application called Fit-Mate has features such as step counter, calorie tracking system, weekly bar graphs, daily water consumption, training program, BMI calculation, body fat rate, daily water need, ideal weight calculation and Daily Goal.
+Fit-Mate is a fitness and health application that includes features such as a step counter, calorie tracking system, weekly bar graphs, daily water consumption monitoring, a training program, BMI calculation, body fat percentage assessment, daily water needs calculation, ideal weight calculation, and daily goal tracking. The application is developed using Kotlin and utilizes PostgreSQL as its database.
 
 Communication For your questions or feedback, you can contact [girayarfundal63@gmail.com].
 
