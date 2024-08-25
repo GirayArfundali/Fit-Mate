@@ -1,6 +1,16 @@
 # Fit-Mate
 Fit-Mate is a fitness and health application that includes features such as a step counter, calorie tracking system, weekly bar graphs, daily water consumption monitoring, a training program, BMI calculation, body fat percentage assessment, daily water needs calculation, ideal weight calculation, and daily goal tracking. The application is developed using Kotlin and utilizes PostgreSQL as its database.
 
+Setup
+
+Click on the "Code" button in the upper right corner. Select "Download ZIP" Option:
+
+In the menu that opens, click "Download ZIP". Download ZIP File
+
+The ZIP file will be automatically downloaded to your computer. ZIP File
+
+You can access the project by extracting the downloaded ZIP file.
+
 Communication For your questions or feedback, you can contact [girayarfundal63@gmail.com].
 
 
